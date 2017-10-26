@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.management.MainActivity">
+
+    <TextView
+        android:id="@+id/WelcomeMessage"
+        android:layout_width="351dp"
+        android:layout_height="44dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="351dp"
+        android:layout_height="44dp"
+        android:text="아이디"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <TextView
+        android:id="@+id/idText"
+        android:layout_width="351dp"
+        android:layout_height="51dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="351dp"
+        android:layout_height="52dp"
+        android:text="비밀번호"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <TextView
+        android:id="@+id/passwordText"
+        android:layout_width="351dp"
+        android:layout_height="54dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline2"
+        app:layout_constraintGuide_begin="16dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline3"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="17dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="367dp" />
+</android.support.constraint.ConstraintLayout>
